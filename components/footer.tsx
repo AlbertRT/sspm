@@ -1,19 +1,24 @@
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
+    const t = useTranslations("contact_us");
+
 	return (
 		<section className="bg-gradient-to-br from-blue-950 to-blue-800 text-white py-20 text-center">
 			<div className="max-w-4xl mx-auto space-y-6">
 				<h2 className="text-3xl font-bold text-yellow-400">
-					Hubungi Kami
+					{t("title")}
 				</h2>
 
-				<p className="text-gray-200 leading-relaxed">
-					Office Tower 3 Level 16 Suite 30, Ciputra Internasional
-					<br />
-					Jl. Lingkar Luar Barat No.101, Rawa Buaya, Cengkareng,
-					Jakarta Barat 11740
-				</p>
+				<div className="px-4 md:px-0 lg:px-0">
+					<p className="text-gray-200 leading-relaxed">
+						Office Tower 3 Level 16 Suite 30, Ciputra Internasional
+						<br />
+						Jl. Lingkar Luar Barat No.101, Rawa Buaya, Cengkareng,
+						Jakarta Barat 11740
+					</p>
+				</div>
 
 				<div className="text-lg font-medium text-gray-100 space-y-2">
 					<p>📞 0859-2111-1881</p>
@@ -38,10 +43,9 @@ export default function Footer() {
 								d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
 							/>
 						</svg>
-						Lihat di Google Maps
+						{t("maps")}
 					</a>
 				</div>
-
 
 				<p className="text-sm text-gray-400">
 					© {new Date().getFullYear()} PT Senara Stratava Pilar

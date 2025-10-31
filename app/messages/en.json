@@ -1,0 +1,185 @@
+{
+	"hero": {
+		"title": "Integrity, Innovation, Implementation",
+		"subtitle": "Building trust through real work",
+		"tagline": "From honest commitment, to bold ideas, to meticulous execution. We don't stop at rhetoric.",
+		"cta_1": "Learn About Our Services",
+		"cta_2": "Contact Us"
+	},
+	"welcome_message": {
+		"title": "Greetings from Us"
+	},
+	"vision": {
+		"title": "Our Vision",
+		"content": "To be the architect of transformation strategies in the insurance, certification, and legality industries through an integrated, adaptive, and future-oriented approach that strengthens the pillars of national trust and competitiveness."
+	},
+	"mission": {
+		"title": "Our Mission",
+		"points_1": "Designing and implementing data-driven insurance consulting strategies and progressive risk management.",
+		"points_2": "Providing regulatory-compliant certification solutions while promoting the industry's reputation and credibility.",
+		"points_3": "Being a trusted partner in business legality services (CV & PT) with fast, legal, and professional processes.",
+		"points_4": "Building strategic collaborations between regulators, clients, and practitioners to strengthen public trust.",
+		"points_5": "Developing internal management systems that uphold integrity and accountability.",
+		"points_6": "Supporting the acceleration of risk, insurance, and certification literacy through strategic education and digital platforms."
+	},
+	"services": {
+		"title": "Our Services",
+
+		"service_1": {
+			"title": "Insurance Consulting & Risk Management",
+			"desc": "Comprehensive solutions for business risk management across various industries.",
+
+			"detail_1": {
+				"category": "Energy Insurance",
+				"items": [
+					"Mining Risks",
+					"Oil & Gas",
+					"Conventional Power Plants & Utilities",
+					"Renewable & Alternative Energy"
+				]
+			},
+			"detail_2": {
+				"category": "Property Insurance",
+				"items": [
+					"All-Risks Property / Industrial Insurance",
+					"Business Interruption",
+					"Terrorism & Sabotage",
+					"Machinery Breakdown"
+				]
+			},
+			"detail_3": {
+				"category": "Marine Insurance",
+				"items": [
+					"Shipbuilding / Ship Repair Risks",
+					"Protection & Indemnity (P&I)",
+					"Marine Hull Insurance",
+					"Marine Cargo Insurance"
+				]
+			},
+			"detail_4": {
+				"category": "Health Insurance",
+				"items": [
+					"Indemnity / Managed Care Systems",
+					"Private Health Insurance",
+					"BPJS Coordination of Benefits (COB)",
+					"Inpatient, Outpatient, Dental, Optical, and Maternity Coverage"
+				]
+			},
+			"detail_5": {
+				"category": "Liability Insurance",
+				"items": [
+					"Public Liability",
+					"Product Liability",
+					"Vehicle Liability",
+					"Employer’s Liability",
+					"Forwarder Liability",
+					"Port & Terminal Liability",
+					"Environmental Liability",
+					"Professional Liability",
+					"Directors & Officers Liability"
+				]
+			},
+			"detail_6": {
+				"category": "Miscellaneous Insurance",
+				"items": [
+					"Cyber Risk",
+					"Hole-in-One (Golf Tournament)",
+					"Fine Art & Jewelry",
+					"Fidelity / Cash in Safe & Transit",
+					"Billboard / Videotron",
+					"Travel Insurance",
+					"Personal Accident",
+					"Event Cancellation",
+					"Umbrella Cover"
+				]
+			}
+		},
+
+		"service_2": {
+			"title": "Certification & Standardization",
+			"desc": "Supporting business compliance and credibility through national and international certification and accreditation.",
+
+			"detail_1": {
+				"category": "Quality & Safety Management",
+				"items": [
+					"ISO 9001, 14001, 45001, 27001, 22301",
+					"SNI (Indonesian National Standard)",
+					"CE Marking (Europe)",
+					"HACCP, GMP, Halal (BPJPH/MUI)"
+				]
+			},
+			"detail_2": {
+				"category": "Industry & Product",
+				"items": [
+					"Green Building Certification",
+					"Ecolabel",
+					"EHS Compliance"
+				]
+			},
+			"detail_3": {
+				"category": "Sector-Specific Standards",
+				"items": [
+					"Energy: Oil & Gas Construction, Power, Renewable",
+					"Transportation: ISM Code, ISPS Code, IATA Certified",
+					"Healthcare: Hospital Accreditation, ISO 15189",
+					"Environment: Green Building, Ecolabel"
+				]
+			}
+		},
+
+		"service_3": {
+			"title": "Business Legality",
+			"desc": "Assisting with business establishment, licensing, and legal documentation for credible enterprises.",
+
+			"detail_1": {
+				"category": "Legal Services",
+				"items": [
+					"Establishment of CV & PT (Limited Company)",
+					"Licensing & OSS Compliance",
+					"Business Compliance Documentation"
+				]
+			}
+		}
+	},
+	"why_us": {
+		"title": "Why Choose Us?",
+		"item_1": {
+			"icon": "🏛️",
+			"title": "Integrity",
+			"desc": "We maintain honesty and responsibility in every business decision."
+		},
+		"item_2": {
+			"icon": "💡",
+			"title": "Innovation",
+			"desc": "A data-driven and technology-based approach for adaptive outcomes."
+		},
+		"item_3": {
+			"icon": "⚙️",
+			"title": "Implementation",
+			"desc": "We implement real, measurable strategies, not just theories."
+		},
+		"item_4": {
+			"icon": "📈",
+			"title": "Credibility",
+			"desc": "Supported by a proven track record and cross-industry experience."
+		},
+		"item_5": {
+			"icon": "🤝",
+			"title": "Flexibility",
+			"desc": "Solutions tailored to the unique needs of each client."
+		}
+	},
+
+	"contact_us": {
+		"title": "Contact Us",
+		"maps": "See on Google Maps"
+	},
+
+	"navbar": {
+		"welcome": "Welcome Message",
+		"visionMission": "Vision & Mission",
+		"whyUs": "Why Us",
+		"services": "Our Services",
+		"consultNow": "Consult Now"
+	}
+}

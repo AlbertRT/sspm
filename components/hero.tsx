@@ -1,7 +1,9 @@
-// Static version of the immersive hero section (no Framer Motion)
-// TailwindCSS only — visually identical, but no animation dependencies.
+import { useTranslations } from "next-intl";
+
 
 export default function HeroImmersive() {
+	const t = useTranslations("hero");
+
 	return (
 		<section className="relative isolate min-h-screen w-full overflow-hidden bg-slate-950 text-white">
 			{/* BACKGROUND LAYERS */}
@@ -18,32 +20,31 @@ export default function HeroImmersive() {
 					{/* Tagline */}
 					<div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] sm:text-xs tracking-wide text-white/80 backdrop-blur">
 						<span className="inline-block h-1 w-1 rounded-full bg-emerald-400" />
-						Membangun kepercayaan lewat karya nyata
+						{t("subtitle")}
 					</div>
 
 					{/* Headline */}
 					<h1 className="leading-tight text-balance">
 						<SplitLine>
 							<span className="block text-4xl font-semibold sm:text-6xl md:text-7xl lg:text-8xl">
-								Integritas,
+								{t("title").split(",")[0]},
 							</span>
 						</SplitLine>
 						<SplitLine>
 							<span className="block text-4xl font-semibold sm:text-6xl md:text-7xl lg:text-8xl">
-								Inovasi
+								{t("title").split(",")[1]}
 							</span>
 						</SplitLine>
 						<SplitLine>
 							<span className="block text-4xl font-extrabold text-yellow-400 sm:text-6xl md:text-7xl lg:text-8xl">
-								Implementasi
+								{t("title").split(",")[2]}
 							</span>
 						</SplitLine>
 					</h1>
 
 					{/* Subheadline */}
 					<p className="mt-5 max-w-md sm:max-w-lg md:max-w-2xl text-sm sm:text-base text-white/70">
-						Dari komitmen yang jujur, ke ide yang berani, sampai
-						eksekusi yang rapi. Kami tidak berhenti di wacana.
+						{t("tagline")}
 					</p>
 
 					{/* Buttons */}
@@ -52,16 +53,16 @@ export default function HeroImmersive() {
 							href="#services"
 							className="group inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium ring-1 ring-white/15 transition hover:bg-white hover:text-slate-900"
 						>
-							Lihat Layanan
+							{t("cta_1")}
 							<span className="-mr-1 transition-transform group-hover:translate-x-0.5">
 								→
 							</span>
 						</a>
 						<a
-							href="#contact"
+							href="https://wa.me/+62085921111881"
 							className="inline-flex items-center justify-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-yellow-300"
 						>
-							Konsultasi Cepat
+							{t("cta_2")}
 						</a>
 					</div>
 				</div>

@@ -1,3 +1,5 @@
+import { Services } from "@/types";
+
 export const WHY_US = [
 	{
 		icon: "🏛️",
@@ -45,44 +47,121 @@ export const NAV_MENU = [
 	{ href: "/#services", label: "Layanan Kami" },
 ];
 
-export const SERVICES = [
+export const SERVICES: Services[] = [
 	{
-		title: "Konsultasi Asuransi & Risiko",
-		desc: "Solusi strategis untuk pengelolaan risiko bisnis — dari energi, properti, marine hingga cyber & kesehatan.",
-		items: [
-			"Energi & Properti",
-			"Marine & Cargo",
-			"Kesehatan & Managed Care",
-			"Cyber Risk & Event Cancellation",
+		title: "Konsultasi Asuransi & Manajemen Risiko",
+		desc: "Solusi menyeluruh untuk pengelolaan risiko bisnis di berbagai sektor industri.",
+		details: [
+			{
+				category: "Asuransi Energi",
+				items: [
+					"Risiko Pertambangan",
+					"Migas (Minyak & Gas Bumi)",
+					"Pembangkit Listrik Konvensional & Utilitas",
+					"Energi Terbarukan & Alternatif",
+				],
+			},
+			{
+				category: "Asuransi Properti",
+				items: [
+					"Properti / Industri Semua Risiko",
+					"Gangguan Usaha (Business Interruption)",
+					"Terorisme & Sabotase",
+					"Kerusakan Mesin (Machinery Breakdown)",
+				],
+			},
+			{
+				category: "Asuransi Kelautan",
+				items: [
+					"Risiko Pembangunan Kapal / Perbaikan Kapal",
+					"Protection & Indemnity",
+					"Asuransi Kapal (Marine Hull)",
+					"Asuransi Kargo Laut (Marine Cargo)",
+				],
+			},
+			{
+				category: "Asuransi Kesehatan",
+				items: [
+					"Sistem Indemnity / Managed Care",
+					"Asuransi Kesehatan Swasta",
+					"Koordinasi Manfaat BPJS (COB BPJS)",
+					"Rawat Inap, Rawat Jalan, Gigi, Kacamata, Melahirkan",
+				],
+			},
+			{
+				category: "Asuransi Tanggung Gugat",
+				items: [
+					"Public Liability",
+					"Product Liability",
+					"Vehicle Liability",
+					"Employer’s Liability",
+					"Forwarder Liability",
+					"Port & Terminal Liability",
+					"Environmental Liability",
+					"Professional Liability",
+					"Directors & Officers Liability",
+				],
+			},
+			{
+				category: "Asuransi Lain-Lain",
+				items: [
+					"Cyber Risk",
+					"Hole-in-One (Turnamen Golf)",
+					"Fine Art & Jewelry",
+					"Fidelity / Uang di Brankas & Perjalanan",
+					"Billboard / Videotron",
+					"Travel Insurance",
+					"Personal Accident",
+					"Event Cancellation",
+					"Umbrella Cover",
+				],
+			},
 		],
-		details: `
-      Kami membantu perusahaan memahami, menilai, dan mengelola risiko bisnis dengan pendekatan yang terintegrasi dan berbasis data. 
-      Fokus kami meliputi risiko aset, tanggung jawab hukum, kesehatan karyawan, serta perlindungan terhadap gangguan digital (cyber risk). 
-      Setiap solusi disusun sesuai kebutuhan unik tiap klien untuk memastikan keberlanjutan dan efisiensi bisnis.`,
 	},
 	{
 		title: "Sertifikasi & Standarisasi",
-		desc: "Mendukung kepatuhan dan reputasi bisnis melalui ISO, SNI, CE, HACCP, dan sertifikasi sektor industri.",
-		items: [
-			"ISO 9001–27001",
-			"SNI, CE, HACCP, Halal",
-			"Green Building & Ecolabel",
-			"Sertifikasi Sektor Energi & Kesehatan",
+		desc: "Mendukung kepatuhan dan kredibilitas bisnis melalui sertifikasi dan akreditasi nasional maupun internasional.",
+		details: [
+			{
+				category: "Manajemen Mutu & Keamanan",
+				items: [
+					"ISO 9001, 14001, 45001, 27001, 22301",
+					"SNI (Standar Nasional Indonesia)",
+					"CE Marking (Eropa)",
+					"HACCP, GMP, Halal (BPJPH/MUI)",
+				],
+			},
+			{
+				category: "Industri & Produk",
+				items: [
+					"Green Building Certification",
+					"Ecolabel",
+					"EHS Compliance",
+				],
+			},
+			{
+				category: "Sektor Spesifik",
+				items: [
+					"Energi: Konstruksi Migas, Listrik, Renewable",
+					"Transportasi: ISM Code, ISPS Code, IATA Certified",
+					"Kesehatan: Akreditasi RS, ISO 15189",
+					"Lingkungan: Green Building, Ecolabel",
+				],
+			},
 		],
-		details: `
-      Kami menyediakan layanan sertifikasi komprehensif untuk membantu perusahaan memenuhi persyaratan nasional dan internasional. 
-      Dari ISO hingga SNI, setiap proses dilakukan dengan bimbingan profesional untuk memastikan integritas, efisiensi, dan pengakuan global.`,
 	},
 	{
 		title: "Legalitas Usaha",
-		desc: "Membantu pembuatan badan usaha (CV/PT), perizinan, dan dokumen hukum untuk bisnis yang kredibel.",
-		items: [
-			"Pendirian CV & PT",
-			"Perizinan & OSS",
-			"Dokumen Kepatuhan Bisnis",
+		desc: "Membantu pembuatan badan usaha, perizinan, dan dokumen hukum bisnis yang kredibel.",
+		details: [
+			{
+				category: "Layanan Hukum",
+				items: [
+					"Pendirian CV & PT",
+					"Perizinan & OSS",
+					"Dokumen Kepatuhan Bisnis",
+				],
+			},
 		],
-		details: `
-      Tim legal kami membantu menyiapkan struktur hukum yang kuat bagi bisnis Anda. 
-      Layanan mencakup pendirian badan usaha, pengurusan izin OSS, hingga penyusunan dokumen legal pendukung untuk memastikan bisnis beroperasi sesuai regulasi.`,
 	},
 ];

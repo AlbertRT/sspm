@@ -1,0 +1,185 @@
+{
+	"hero": {
+		"title": "Integritas, Inovasi, Implementasi",
+		"subtitle": "Membangun kepercayaan lewat karya nyata",
+		"tagline": "Dari komitmen yang jujur, ke ide yang berani, sampai eksekusi yang rapi. Kami tidak berhenti di wacana.",
+		"cta_1": "Pelajari Layanan Kami",
+		"cta_2": "Hubungi Kami"
+	},
+	"welcome_message": {
+		"title": "Sambutan dari Kami"
+	},
+	"vision": {
+		"title": "Visi Kami",
+		"content": "Menjadi arsitek strategi transformasi industri asuransi, sertifikasi, dan legalitas melalui pendekatan terintegrasi, adaptif, dan berorientasi masa depan, yang memperkuat pilar kepercayaan dan daya saing nasional."
+	},
+	"mission": {
+		"title": "Misi Kami",
+		"points_1": "Merancang dan mengimplementasikan strategi konsultasi asuransi berbasis data dan tata kelola risiko progresif.",
+		"points_2": "Menghadirkan solusi sertifikasi yang taat regulasi, sekaligus mendorong reputasi dan kredibilitas industri.",
+		"points_3": "Menjadi mitra terpercaya dalam layanan legalitas usaha (CV & PT) dengan proses cepat, legal, dan profesional.",
+		"points_4": "Membangun kolaborasi strategis antara regulator, klien, dan praktisi untuk memperkuat kepercayaan publik.",
+		"points_5": "Mengembangkan sistem manajemen internal yang menjunjung integritas dan akuntabilitas.",
+		"points_6": "Mendukung percepatan literasi risiko, asuransi, dan sertifikasi melalui edukasi strategis dan platform digital."
+	},
+	"services": {
+		"title": "Layanan Kami",
+
+		"service_1": {
+			"title": "Konsultasi Asuransi & Manajemen Risiko",
+			"desc": "Solusi menyeluruh untuk pengelolaan risiko bisnis di berbagai sektor industri.",
+
+			"detail_1": {
+				"category": "Asuransi Energi",
+				"items": [
+					"Risiko Pertambangan",
+					"Migas (Minyak & Gas Bumi)",
+					"Pembangkit Listrik Konvensional & Utilitas",
+					"Energi Terbarukan & Alternatif"
+				]
+			},
+			"detail_2": {
+				"category": "Asuransi Properti",
+				"items": [
+					"Properti / Industri Semua Risiko",
+					"Gangguan Usaha (Business Interruption)",
+					"Terorisme & Sabotase",
+					"Kerusakan Mesin (Machinery Breakdown)"
+				]
+			},
+			"detail_3": {
+				"category": "Asuransi Kelautan",
+				"items": [
+					"Risiko Pembangunan Kapal / Perbaikan Kapal",
+					"Protection & Indemnity",
+					"Asuransi Kapal (Marine Hull)",
+					"Asuransi Kargo Laut (Marine Cargo)"
+				]
+			},
+			"detail_4": {
+				"category": "Asuransi Kesehatan",
+				"items": [
+					"Sistem Indemnity / Managed Care",
+					"Asuransi Kesehatan Swasta",
+					"Koordinasi Manfaat BPJS (COB BPJS)",
+					"Rawat Inap, Rawat Jalan, Gigi, Kacamata, Melahirkan"
+				]
+			},
+			"detail_5": {
+				"category": "Asuransi Tanggung Gugat",
+				"items": [
+					"Public Liability",
+					"Product Liability",
+					"Vehicle Liability",
+					"Employer’s Liability",
+					"Forwarder Liability",
+					"Port & Terminal Liability",
+					"Environmental Liability",
+					"Professional Liability",
+					"Directors & Officers Liability"
+				]
+			},
+			"detail_6": {
+				"category": "Asuransi Lain-Lain",
+				"items": [
+					"Cyber Risk",
+					"Hole-in-One (Turnamen Golf)",
+					"Fine Art & Jewelry",
+					"Fidelity / Uang di Brankas & Perjalanan",
+					"Billboard / Videotron",
+					"Travel Insurance",
+					"Personal Accident",
+					"Event Cancellation",
+					"Umbrella Cover"
+				]
+			}
+		},
+
+		"service_2": {
+			"title": "Sertifikasi & Standarisasi",
+			"desc": "Mendukung kepatuhan dan kredibilitas bisnis melalui sertifikasi dan akreditasi nasional maupun internasional.",
+
+			"detail_1": {
+				"category": "Manajemen Mutu & Keamanan",
+				"items": [
+					"ISO 9001, 14001, 45001, 27001, 22301",
+					"SNI (Standar Nasional Indonesia)",
+					"CE Marking (Eropa)",
+					"HACCP, GMP, Halal (BPJPH/MUI)"
+				]
+			},
+			"detail_2": {
+				"category": "Industri & Produk",
+				"items": [
+					"Green Building Certification",
+					"Ecolabel",
+					"EHS Compliance"
+				]
+			},
+			"detail_3": {
+				"category": "Sektor Spesifik",
+				"items": [
+					"Energi: Konstruksi Migas, Listrik, Renewable",
+					"Transportasi: ISM Code, ISPS Code, IATA Certified",
+					"Kesehatan: Akreditasi RS, ISO 15189",
+					"Lingkungan: Green Building, Ecolabel"
+				]
+			}
+		},
+
+		"service_3": {
+			"title": "Legalitas Usaha",
+			"desc": "Membantu pembuatan badan usaha, perizinan, dan dokumen hukum bisnis yang kredibel.",
+
+			"detail_1": {
+				"category": "Layanan Hukum",
+				"items": [
+					"Pendirian CV & PT",
+					"Perizinan & OSS",
+					"Dokumen Kepatuhan Bisnis"
+				]
+			}
+		}
+	},
+
+	"why_us": {
+		"title": "Mengapa Memilih Kami",
+		"item_1": {
+			"icon": "🏛️",
+			"title": "Integritas",
+			"desc": "Kami menjaga kejujuran dan tanggung jawab di setiap keputusan bisnis."
+		},
+		"item_2": {
+			"icon": "💡",
+			"title": "Inovasi",
+			"desc": "Pendekatan berbasis data dan teknologi untuk hasil yang adaptif."
+		},
+		"item_3": {
+			"icon": "⚙️",
+			"title": "Implementasi",
+			"desc": "Kami wujudkan strategi nyata yang bisa diukur, bukan sekadar teori."
+		},
+		"item_4": {
+			"icon": "📈",
+			"title": "Kredibilitas",
+			"desc": "Didukung rekam jejak dan pengalaman lintas industri."
+		},
+		"item_5": {
+			"icon": "🤝",
+			"title": "Fleksibilitas",
+			"desc": "Solusi yang disesuaikan dengan kebutuhan unik setiap klien."
+		}
+	},
+	"contact_us": {
+		"title": "Hubungi Kami",
+		"maps": "Lihat di Google Maps"
+	},
+
+	"navbar": {
+		"welcome": "Pesan Sambutan",
+		"visionMission": "Visi & Misi",
+		"whyUs": "Mengapa Kami",
+		"services": "Layanan Kami",
+		"consultNow": "Konsultasi Sekarang"
+	}
+}
