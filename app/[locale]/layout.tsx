@@ -41,7 +41,6 @@ export default async function RootLayout({
 			notFound();
 		}
 
-        console.log("Locale:", locale);
 	return (
 		<html suppressHydrationWarning lang={locale}>
 			<head />
