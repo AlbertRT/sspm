@@ -13,40 +13,44 @@ export default function HeroImmersive() {
 			</div>
 
 			{/* CONTENT */}
-			<div className="relative mx-auto flex max-w-7xl flex-col items-start px-6 pb-24 pt-28 md:px-10 lg:px-12 xl:px-16">
+			<div className="relative mx-auto flex max-w-7xl flex-col items-start px-5 pb-24 pt-28 sm:px-8 md:px-10 lg:px-12 xl:px-16">
 				<div className="w-full">
-					<div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs tracking-wide text-white/80 backdrop-blur">
+					{/* Tagline */}
+					<div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] sm:text-xs tracking-wide text-white/80 backdrop-blur">
 						<span className="inline-block h-1 w-1 rounded-full bg-emerald-400" />
 						Membangun kepercayaan lewat karya nyata
 					</div>
 
-					<h1 className="leading-tight">
+					{/* Headline */}
+					<h1 className="leading-tight text-balance">
 						<SplitLine>
-							<span className="block text-6xl font-semibold sm:text-7xl md:text-8xl">
+							<span className="block text-4xl font-semibold sm:text-6xl md:text-7xl lg:text-8xl">
 								Integritas,
 							</span>
 						</SplitLine>
 						<SplitLine>
-							<span className="block text-6xl font-semibold sm:text-7xl md:text-8xl">
+							<span className="block text-4xl font-semibold sm:text-6xl md:text-7xl lg:text-8xl">
 								Inovasi
 							</span>
 						</SplitLine>
 						<SplitLine>
-							<span className="block text-6xl font-extrabold text-yellow-400 sm:text-7xl md:text-8xl">
+							<span className="block text-4xl font-extrabold text-yellow-400 sm:text-6xl md:text-7xl lg:text-8xl">
 								Implementasi
 							</span>
 						</SplitLine>
 					</h1>
 
-					<p className="mt-6 max-w-2xl text-balance text-base text-white/70 md:text-lg">
+					{/* Subheadline */}
+					<p className="mt-5 max-w-md sm:max-w-lg md:max-w-2xl text-sm sm:text-base text-white/70">
 						Dari komitmen yang jujur, ke ide yang berani, sampai
 						eksekusi yang rapi. Kami tidak berhenti di wacana.
 					</p>
 
-					<div className="mt-8 flex flex-wrap items-center gap-3">
+					{/* Buttons */}
+					<div className="mt-8 flex flex-col sm:flex-row sm:items-center gap-3">
 						<a
 							href="#services"
-							className="group inline-flex items-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium ring-1 ring-white/15 transition hover:bg-white hover:text-slate-900"
+							className="group inline-flex items-center justify-center gap-2 rounded-2xl px-5 py-3 text-sm font-medium ring-1 ring-white/15 transition hover:bg-white hover:text-slate-900"
 						>
 							Lihat Layanan
 							<span className="-mr-1 transition-transform group-hover:translate-x-0.5">
@@ -55,7 +59,7 @@ export default function HeroImmersive() {
 						</a>
 						<a
 							href="#contact"
-							className="inline-flex items-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-yellow-300"
+							className="inline-flex items-center justify-center gap-2 rounded-2xl bg-yellow-400 px-5 py-3 text-sm font-semibold text-slate-900 transition hover:bg-yellow-300"
 						>
 							Konsultasi Cepat
 						</a>

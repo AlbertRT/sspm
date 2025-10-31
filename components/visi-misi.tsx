@@ -3,7 +3,10 @@ import React from "react";
 
 export default function VisiMisi() {
 	return (
-		<section className="bg-blue-950 px-6 py-24 text-white">
+		<section
+			className="bg-blue-950 px-6 py-24 text-white"
+			id="vision-mission"
+		>
 			<div className="mx-auto max-w-5xl space-y-16">
 				{/* TITLE */}
 				<div className="text-center">

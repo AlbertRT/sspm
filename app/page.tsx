@@ -1,5 +1,8 @@
+import Footer from "@/components/footer";
 import HeroImmersive from "@/components/hero";
+import Services from "@/components/services";
 import VisiMisi from "@/components/visi-misi";
+import { SERVICES, WHY_US } from "@/config/constant";
 
 export default function Home() {
 
@@ -37,42 +40,25 @@ export default function Home() {
 			<VisiMisi />
 
 			{/* ===== WHY US ===== */}
-			<section className="px-6 py-20">
+			<section className="px-6 py-20 bg-gray-50" id="why-us">
 				<div className="mx-auto max-w-6xl text-center">
 					<h2 className="mb-12 text-3xl font-bold text-blue-900">
 						Mengapa Memilih Kami
 					</h2>
-					<div className="grid grid-cols-2 gap-6 md:grid-cols-5">
-						{[
-							{
-								title: "Integritas",
-								desc: "Kejujuran dan tanggung jawab di setiap keputusan.",
-							},
-							{
-								title: "Inovasi",
-								desc: "Pendekatan adaptif berbasis data & teknologi.",
-							},
-							{
-								title: "Implementasi",
-								desc: "Strategi nyata, bukan sekadar teori.",
-							},
-							{
-								title: "Kredibilitas",
-								desc: "Rekam jejak terpercaya lintas industri.",
-							},
-							{
-								title: "Fleksibilitas",
-								desc: "Solusi yang menyesuaikan kebutuhan Anda.",
-							},
-						].map((i) => (
+
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+						{WHY_US.map((i) => (
 							<div
 								key={i.title}
-								className="rounded-xl bg-white p-6 shadow-lg transition hover:shadow-xl"
+								className="group rounded-xl bg-white p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-transparent hover:border-blue-200"
 							>
-								<p className="mb-2 font-semibold text-blue-950">
+								<div className="text-4xl mb-3 group-hover:scale-110 transition-transform">
+									{i.icon}
+								</div>
+								<p className="mb-2 font-semibold text-blue-950 text-lg">
 									{i.title}
 								</p>
-								<p className="text-sm text-gray-600">
+								<p className="text-sm text-gray-600 leading-relaxed">
 									{i.desc}
 								</p>
 							</div>
@@ -82,80 +68,10 @@ export default function Home() {
 			</section>
 
 			{/* ===== SERVICES (RINGKAS) ===== */}
-			<section className="bg-gray-50 px-6 py-20">
-				<div className="mx-auto max-w-6xl text-center">
-					<h2 className="mb-12 text-3xl font-bold text-blue-900">
-						Layanan Kami
-					</h2>
-					<div className="grid gap-8 md:grid-cols-3 text-left">
-						{[
-							{
-								title: "Konsultasi Asuransi & Risiko",
-								desc: "Solusi strategis untuk pengelolaan risiko bisnis — dari energi, properti, marine hingga cyber & kesehatan.",
-								items: [
-									"Energi & Properti",
-									"Marine & Cargo",
-									"Kesehatan & Managed Care",
-									"Cyber Risk & Event Cancellation",
-								],
-							},
-							{
-								title: "Sertifikasi & Standarisasi",
-								desc: "Mendukung kepatuhan dan reputasi bisnis melalui ISO, SNI, CE, HACCP, dan sertifikasi sektor industri.",
-								items: [
-									"ISO 9001–27001",
-									"SNI, CE, HACCP, Halal",
-									"Green Building & Ecolabel",
-									"Sertifikasi Sektor Energi & Kesehatan",
-								],
-							},
-							{
-								title: "Legalitas Usaha",
-								desc: "Membantu pembuatan badan usaha (CV/PT), perizinan, dan dokumen hukum untuk bisnis yang kredibel.",
-								items: [
-									"Pendirian CV & PT",
-									"Perizinan & OSS",
-									"Dokumen Kepatuhan Bisnis",
-								],
-							},
-						].map((srv) => (
-							<div
-								key={srv.title}
-								className="rounded-xl bg-white p-8 shadow-lg ring-1 ring-black/5"
-							>
-								<div className="mb-4 h-1 w-16 bg-yellow-400" />
-								<h3 className="mb-3 text-xl font-semibold text-blue-950">
-									{srv.title}
-								</h3>
-								<p className="mb-4 text-sm text-gray-600">
-									{srv.desc}
-								</p>
-								<ul className="ml-4 list-disc text-sm text-gray-700 space-y-1">
-									{srv.items.map((i) => (
-										<li key={i}>{i}</li>
-									))}
-								</ul>
-							</div>
-						))}
-					</div>
-				</div>
-			</section>
+			<Services />
 
 			{/* ===== CONTACT ===== */}
-			<section className="px-6 py-20 text-center">
-				<h2 className="mb-6 text-3xl font-bold text-blue-900">
-					Hubungi Kami
-				</h2>
-				<p className="mx-auto mb-6 max-w-2xl leading-relaxed text-gray-700">
-					Office Tower 3 Level 16 Suite 30, Ciputra Internasional
-					<br />
-					Jl. Lingkar Luar Barat 11 No.101, Rawa Buaya, Cengkareng,
-					Jakarta Barat 11740
-				</p>
-				<p className="mb-8 text-lg font-semibold text-blue-950">
-					0859-2111-1881 • erick@sspm.co.id • www.sspm.co.id
-				</p>
-			</section>
+			<Footer />
 		</main>
   );
 }
