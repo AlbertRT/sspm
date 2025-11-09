@@ -52,6 +52,7 @@
     "@react-aria/ssr": "3.9.10",
     "@react-aria/visually-hidden": "3.8.27",
     "clsx": "2.1.1",
+    "eslint-plugin-compat": "^6.0.2",
     "framer-motion": "^12.23.24",
     "intl-messageformat": "10.7.16",
     "lucide-react": "^0.548.0",
