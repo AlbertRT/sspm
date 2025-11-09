@@ -165,3 +165,18 @@ export const SERVICES: Services[] = [
 		],
 	},
 ];
+
+
+export const PARTNERS = [
+    "1.png",
+    "2.png",
+    "3.png",
+    "4.png",
+    "5.png",
+    "6.png",
+    "7.png",
+    "8.jpg",
+    "9.jpg",
+    "10.png",
+    "11.png",
+];

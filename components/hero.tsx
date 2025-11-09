@@ -8,10 +8,9 @@ export default function HeroImmersive() {
 		<section className="relative isolate min-h-screen w-full overflow-hidden bg-slate-950 text-white">
 			{/* BACKGROUND LAYERS */}
 			<div aria-hidden className="pointer-events-none absolute inset-0">
-				<div className="absolute inset-0 bg-[radial-gradient(1200px_600px_at_50%_0%,rgba(56,189,248,.25),transparent_60%)]" />
-				<div className="absolute inset-0 bg-[conic-gradient(from_210deg_at_70%_20%,rgba(250,204,21,.15),transparent_30%,rgba(99,102,241,.15)_55%,transparent_75%)] mix-blend-screen" />
-				<div className="absolute inset-0 bg-[radial-gradient(900px_400px_at_50%_120%,rgba(0,0,0,.65),transparent_60%)]" />
-				<div className="absolute inset-0 opacity-[0.06] [background-image:url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'160\' height=\'160\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.65\' numOctaves=\'2\' stitchTiles=\'stitch\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\'/></svg>')]" />
+				<div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-950 to-black" />
+				<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05),transparent_70%)]" />
+				<div className="absolute inset-0 opacity-[0.06] [background-image:url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'300\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.9\' numOctaves=\'3\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\'/></svg>')]" />
 			</div>
 
 			{/* CONTENT */}

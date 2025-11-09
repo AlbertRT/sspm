@@ -175,11 +175,19 @@
 		"maps": "Lihat di Google Maps"
 	},
 
+    "partners": {
+        "title": "Mitra & Klien Kami"
+    },
+
 	"navbar": {
 		"welcome": "Pesan Sambutan",
 		"visionMission": "Visi & Misi",
 		"whyUs": "Mengapa Kami",
 		"services": "Layanan Kami",
 		"consultNow": "Konsultasi Sekarang"
-	}
+	},
+
+    "colabs": {
+        "title": "Kolaborasi & Kemitraan"
+    }
 }

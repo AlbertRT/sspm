@@ -1,9 +1,12 @@
+import Collabs from "@/components/collabs";
 import Footer from "@/components/footer";
 import HeroImmersive from "@/components/hero";
+import Partner from "@/components/partner";
 import Services from "@/components/services";
 import VisiMisi from "@/components/visi-misi";
 import WelcomeMessage from "@/components/welcome_message";
 import WhyUS from "@/components/why_us";
+import { PARTNERS } from "@/config/constant";
 
 export default function Home() {
 
@@ -17,10 +20,15 @@ export default function Home() {
 			<VisiMisi />
 
 			{/* ===== WHY US ===== */}
-            <WhyUS />
+			<WhyUS />
 
 			{/* ===== SERVICES (RINGKAS) ===== */}
 			<Services />
+
+			{/* ===== PARTNER ===== */}
+			<Partner />
+
+			<Collabs />
 
 			{/* ===== CONTACT ===== */}
 			<Footer />

@@ -12,6 +12,7 @@ import {
 } from "@heroui/drawer";
 import { Button } from "@heroui/button";
 import { useTranslations, useLocale } from "next-intl";
+import Image from "next/image";
 
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +62,13 @@ export default function Navbar() {
 						scrolled ? "text-blue-900" : "text-white"
 					}`}
 				>
-					SSPM
+					<img
+						src="/logo/LOGO.png"
+						alt="SSPM Logo"
+						className={`w-[180px] transition-opacity duration-300 ${
+							scrolled ? "opacity-100" : "opacity-90"
+						}`}
+					/>
 				</Link>
 
 				{/* === DESKTOP MENU === */}
