@@ -13,7 +13,7 @@ export default function Footer() {
 
 				<div className="px-4 md:px-0 lg:px-0">
 					<p className="text-gray-200 leading-relaxed">
-						Office Tower 3 Level 16 Suite 30, Ciputra Internasional
+						Office Tower 3 Level 16 Suite 39, Ciputra Internasional
 						<br />
 						Jl. Lingkar Luar Barat No.101, Rawa Buaya, Cengkareng,
 						Jakarta Barat 11740
@@ -24,7 +24,7 @@ export default function Footer() {
 					<p>📞 0859-2111-1881</p>
 					<p>✉️ erick@sspm.co.id</p>
 					<a
-						href="https://goo.gl/maps/tvoaEHmMZmsqFYn18"
+						href="https://maps.app.goo.gl/D3thVx1hPgkdqEuS8"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-flex items-center gap-2 bg-yellow-400 text-blue-950 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300 transition-colors mt-4"
