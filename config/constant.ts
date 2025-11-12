@@ -1,5 +1,7 @@
 import { Services } from "@/types";
 
+export const MAPS = "https://maps.app.goo.gl/WLCLvN9S6f4aKfmQA?g_st=aw";
+
 export const WHY_US = [
 	{
 		icon: "🏛️",
