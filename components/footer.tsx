@@ -24,7 +24,7 @@ export default function Footer() {
 					<p>📞 0859-2111-1881</p>
 					<p>✉️ erick@sspm.co.id</p>
 					<a
-						href="https://maps.app.goo.gl/D3thVx1hPgkdqEuS8"
+						href={process.env.MAPS}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-flex items-center gap-2 bg-yellow-400 text-blue-950 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300 transition-colors mt-4"
